@@ -1,0 +1,112 @@
+{
+  "name": "fwf-name-origin-demo",
+  "projectId": "7fe7170d-93ea-4a62-acea-f2ba2f43ee5c",
+  "description": "The robot reads the input file and reatins from there all the names from the first column. It then searches on Names.org website the origin of each name. In the end, it stores all names and their repsective origins in a dictionary, inserts the origins in the input file and creates the output report.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.21.0-preview]",
+    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.Testing.Activities": "[23.6.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d17e038b-0cba-426b-a889-8cfb5edbadc0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_NamesOrg_OpenWebsite.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d5ab76c6-8571-4c77-a774-134729ff92f8",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_NamesOrg_CloseWebsite.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9af1ff75-6a42-40ae-950b-9087b9952a21",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_ReadExcelFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f4fcebc3-3f7d-45d2-b59a-d39d9e5b832d",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_GetNamesFromInputFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fd2c33bc-8191-4bab-893c-4d5ee0b0161e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_NamesOrg_GetOriginBasedOnName.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ac72f572-e352-4dd1-a44d-91f6153cf5da",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_InsertDataIntoTable.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7d796e71-f547-4e3a-83df-61299f800136",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\UnitTest_WriteExcelFile.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "9ece061e-39fe-4c5c-998e-79ea81be8474",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

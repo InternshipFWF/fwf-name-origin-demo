@@ -6,6 +6,7 @@
 .settings
 .templates
 .tmh
+.screenshots
 Exception_Screenshots
 Documentation
 Data/Output
